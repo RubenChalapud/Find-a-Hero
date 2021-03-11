@@ -1,0 +1,141 @@
+/*Estilos Barra Navegacion*/
+.o-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #F4F3EE;
+}
+
+.o-title-nav-container {
+    margin-left: 2rem;
+}
+
+.o-title-nav {
+    font-family: Anton;
+    color: #FF4654;
+    font-size: 70px;
+    margin-top: -0.5rem;
+    margin-bottom: -0.5rem;
+}
+
+.o-links-container {
+    width: 25rem;
+    display: flex;
+    justify-content: space-around;
+    font-family: Anton;
+}
+
+.o-link {
+    font-size: 30px;
+    color: #FF4654;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.o-link:hover{
+    font-weight: 700;
+    opacity: 1;
+}
+
+.o-link-call-to-action{
+    color: #FF4654;
+    opacity: 1;
+}
+
+.o-info-container{
+    background-color: #101823;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/*Estilos Contenido barra lateral*/
+.o-info-left {
+    background-color: #FF4654;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+    padding: 6rem;
+    width: 143%;
+}
+
+.o-img-info {
+    width: 140%;
+    margin-top: -5rem;
+}
+
+.o-img-info:hover{
+    width: 145%;
+}
+
+.o-button-change-img{
+    margin: 0.5rem;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 100%;
+    background: #EBE8E1;
+    border: 0.1px solid #ffffff;
+    opacity: 0.5;
+}
+
+.o-button-change-img-action{
+    opacity: 1;
+}
+
+.o-button-change-img:hover{
+    opacity: 1;
+}
+
+.o-buttons-change-img-container{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/*Estilos Contenido*/
+.o-info-rigth {
+    padding: 5rem;
+    padding-left: 4rem;
+    padding-right: 10rem;
+}
+
+.o-info-icon{
+    color : #FF4654;
+    font-size: xx-large;
+}
+
+.o-info-icon:hover{
+    opacity: 0.8;
+}
+
+.o-title-hero {
+    font-family: Anton;
+    font-size: 55px;
+    color: #F4F2EE;
+    margin-top: 1rem;
+    line-height: 4rem;
+    margin-left: 3rem;
+}
+
+.o-title-info-hero {
+    font-family: Anton;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 44px;
+    color: #FF4654;
+    margin-left: 3rem;
+}
+
+.o-content-info-hero {
+    font-family: Anton;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #F4F2EE;
+    margin-left: 3rem;
+}
